@@ -26,12 +26,11 @@ const Footer = () => {
       {/* Description Section */}
       <div className="max-w-6xl mx-auto text-center ">
         <p className="mt-4 text-white font-[450]">
-          At Sologens, we stand out for our unwavering commitment to excellence
-          and innovation. Our comprehensive suite of digital solutions is
-          designed to cater to businesses of all sizes, ensuring each client
-          receives personalized attention and strategies that yield tangible
-          results. We take pride in our Expert Team, Tailored Solutions,
-          Customer-Centric Approach, Proven Track Record.
+          our unwavering commitment to accuracy and detail. Our comprehensive
+          suite of take-off is designed to cater to businesses of all sizes,
+          ensuring each client receives personalized attention and strategies
+          that yield tangible results. We take pride in our Expert Team,
+          Tailored Solutions, Customer- Centric Approach, Proven Track Record
         </p>
 
         <div className="flex flex-col items-center md:gap-5 mt-5 md:flex-row md:justify-center">
@@ -46,7 +45,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-5 flex justify-center">
-          <Image src="/s2.png" width={100} height={100} alt="footer icon" />
+          <Image src="/a6.png" width={120} height={120} alt="footer icon"  className="bg-white rounded-md"/>
         </div>
       </div>
 
@@ -54,7 +53,7 @@ const Footer = () => {
       <div className="mt-5 md:bg-[#00000026] md:p-3">
         <div className="max-w-6xl mx-auto flex flex-col items-center md:flex-row md:justify-between text-center md:text-left">
           <p className="text-white opacity-80">
-            Copyright © 2024 Sologens. All Rights Reserved.
+            Copyright © 2024 QTO. All Rights Reserved.
           </p>
           <div className="flex gap-1 flex-wrap items-center justify-center">
             <p className="text-white">Powered by</p>
