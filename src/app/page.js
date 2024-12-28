@@ -5,6 +5,7 @@ import Services from "./sections/services";
 import Transform from "./sections/transform";
 import AnalyticalSection from "./sections/analytical";
 import ImageGallery from "./sections/clients";
+import CoreValues from "./sections/corevalues";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Herosection/>
     <PartnerSection/>
     <Services/>
+    <CoreValues/>
     <Transform/>
     <AnalyticalSection/>
     <ImageGallery/>

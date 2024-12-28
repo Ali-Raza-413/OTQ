@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 const Contactus = () => {
+  const router = useRouter();
   return (
     <div className="relative h-[350px] flex items-center justify-center bg-black">
       {/* Background Image Layer */}
@@ -27,7 +30,9 @@ const Contactus = () => {
             </p>
           </div>
           <div className="md:mt-10">
-            <button className="bg-[#4d0362] text-white text-xl font-semibold w-[200px] h-[50px]  rounded-xl hover:bg-[#63078a] transition">
+            <button className="bg-[#4d0362] text-white text-xl font-semibold w-[200px] h-[50px]  rounded-xl hover:bg-[#63078a] transition"
+                    onClick={() => router.push("/contactus")}
+            >
               Contact us
             </button>
           </div>
