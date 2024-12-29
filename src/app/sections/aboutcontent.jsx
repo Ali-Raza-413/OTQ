@@ -69,7 +69,7 @@ const AboutContent = () => {
             Our Vision
           </h1>
           <p className="text-lg leading-relaxed mb-6 text-gray-600 font-[400]  text-center lg:text-left">
-            At Sologens, we envision a world where every business, regardless of
+            At QTO HUB LLC, we envision a world where every sort of construction business, regardless of
             size, has the tools and knowledge to thrive in the digital
             marketplace. We are dedicated to being a catalyst for growth and
             success for our clients.

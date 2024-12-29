@@ -4,7 +4,6 @@ import PartnerSection from "./sections/partner";
 import Services from "./sections/services";
 import Transform from "./sections/transform";
 import AnalyticalSection from "./sections/analytical";
-import ImageGallery from "./sections/clients";
 import CoreValues from "./sections/corevalues";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
     <CoreValues/>
     <Transform/>
     <AnalyticalSection/>
-    <ImageGallery/>
     <Contactus/>       
     </div>
   );

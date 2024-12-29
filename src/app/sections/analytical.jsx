@@ -1,51 +1,39 @@
 "use client";
 import React from "react";
-
+import NumberTicker from "@/components/ui/numberticker";
 const AnalyticalSection = () => {
+  const analyticsData = [
+    { id: 1, number: 200, title: "24/7 Monitoring" },
+    { id: 2, number: 550, title: "Efficient and Effective Solutions" },
+    { id: 3, number: 200, title: "User-Friendly Interfaces" },
+    { id: 4, number: 600, title: "Customized Solutions" },
+  ];
+
   return (
     <section
       className="relative bg-cover bg-center py-20"
-      style={{ backgroundImage: "url('/a4.webp')" }}
+      style={{ backgroundImage: "url('/p3.jpg')" }}
     >
-      {/* Overlay Layer for Second Background */}
-      <div
-        className="absolute inset-0 bg-no-repeat bg-center bg-contain"
-        style={{ backgroundImage: "url('/a5.svg')" }}
-      ></div>
-
-      {/* Dark Overlay */}
+      {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-60"></div>
 
       {/* Content Section */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-10">
-        <div className="flex flex-col lg:flex-row justify-between">
-          {/* Content Block 1 */}
-          <div className="flex flex-col items-center">
-            <h2 className="text-3xl font-bold mb-4 text-white">12</h2>
-            <p className="text-lg text-gray-200 ">24/7 Monitoring</p>
-          </div>
-
-          {/* Content Block 2 */}
-          <div className="flex flex-col  items-center">
-            <h2 className="text-3xl font-bold mb-4 text-white ">45</h2>
-            <p className="text-lg text-gray-200 ">
-              Efficient and Effective Solutions
-            </p>
-          </div>
-
-          {/* Content Block 3 - With Dark Effect */}
-          <div className="flex flex-col items-center">
-            <h2 className="text-3xl font-bold mb-4 text-gray-200 shadow-lg text-center ">
-              8
-            </h2>
-            <p className="text-lg text-gray-200 ">User-Friendly Interfaces</p>
-          </div>
-
-          {/* Content Block 4 */}
-          <div className="flex flex-col  items-center">
-            <h2 className="text-3xl font-bold mb-4 text-white">37</h2>
-            <p className="text-lg text-gray-200">Customized Solutions</p>
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {analyticsData.map((item) => (
+            <div
+              key={item.id}
+              className="flex flex-col items-center text-center bg-white rounded-lg shadow-lg  p-5 hover:scale-105 transform transition duration-300"
+            >
+             <NumberTicker
+                targetNumber={item.number}
+                duration={2000} // Animation duration in ms
+                className="text-3xl font-bold mb-4 text-yellow-400"
+                loop  
+              />
+              <p className="text-lg text-black font-semibold">{item.title}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
