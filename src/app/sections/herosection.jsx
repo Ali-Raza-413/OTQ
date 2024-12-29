@@ -18,7 +18,7 @@ const Herosection = () => {
       {/* Content Section */}
       <div className="relative z-20 text-center text-white max-w-6xl px-6">
         <h1 className="text-5xl font-bold mb-6">Innovating</h1>
-        <h1 className="text-5xl font-bold mb-6">Tomorrow, Today.</h1>
+        <h1 className="text-5xl font-bold mb-6">Today & Tomorrow.</h1>
 
         <p className="mb-8 text-lg leading-relaxed">
         Transform your business with QTO Hub LLC. From bidding to estimation to 

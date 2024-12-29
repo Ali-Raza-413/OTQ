@@ -14,8 +14,6 @@ const PartnerSection = () => {
           elevate your bidding process. We expertise in GC, MEP, Subcontracting
           and all types of building take-offs. We ensure your bid stands out in
           whole bidding process. Let us help you achieve your business goals.
-          General Contracting Take-offs MEP Take-offs Plumbing Take-offs Civil,
-          Concrete, Site and Rebar Take-offs.
         </p>
         <div className="flex justify-center lg:justify-start">
           <button className="bg-black text-white py-3 px-8 rounded-full hover:bg-[#63078a] transition">
