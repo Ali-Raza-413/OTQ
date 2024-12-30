@@ -51,11 +51,12 @@ const Footer = () => {
 
       {/* Footer Bottom Section */}
       <div className="mt-5 md:bg-[#00000026] md:p-3">
-        <div className="max-w-6xl mx-auto flex flex-col items-center md:flex-row md:justify-between text-center md:text-left">
+        <div className="max-w-6xl mx-auto flex flex-col items-center md:flex-row md:justify-center text-center md:text-left">
           <p className="text-white opacity-80">
-            Copyright © 2024 QTO. All Rights Reserved.
+            Copyright © 2024 QTO HUB LLC
+            . All Rights Reserved.
           </p>
-          <div className="flex gap-1 flex-wrap items-center justify-center">
+          {/* <div className="flex gap-1 flex-wrap items-center justify-center">
             <p className="text-white">Powered by</p>
             <button className="text-black opacity-80 bg-gray-100 rounded-full px-2">
               Odoo
@@ -64,7 +65,7 @@ const Footer = () => {
               - The #1{" "}
               <span className="text-[#c60ef8]">Open Source eCommerce</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
