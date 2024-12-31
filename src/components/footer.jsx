@@ -33,7 +33,7 @@ const Footer = () => {
           Tailored Solutions, Customer- Centric Approach, Proven Track Record
         </p>
 
-        <div className="flex flex-col items-center md:gap-5 mt-5 md:flex-row md:justify-center">
+        {/* <div className="flex flex-col items-center md:gap-5 mt-5 md:flex-row md:justify-center">
           <div className="flex items-center gap-2">
             <PhoneCall className="text-white" />
             <p className="text-white font-[450]">+ 92 336 7677802​</p>
@@ -42,7 +42,7 @@ const Footer = () => {
             <Mail className="text-white" />
             <p className="text-white font-[450]">usmankhan3151@gmail.com​</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="mt-5 flex justify-center">
           <Image src="/a6.png" width={120} height={120} alt="footer icon"  className="bg-white rounded-md"/>
