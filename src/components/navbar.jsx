@@ -49,7 +49,7 @@ const Navbar = () => {
             />
           </div>
 
-          <h1 className=" hidden md:block text-xl font-semibold text-[#63078a]">
+          <h1 className=" hidden md:block text-3xl  font-semibold text-[#63078a]">
             QTO HUB <span className="text-[#fdda04]">LLC</span>
           </h1>
 

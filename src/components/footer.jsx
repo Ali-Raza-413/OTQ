@@ -25,8 +25,8 @@ const Footer = () => {
 
       {/* Description Section */}
       <div className="max-w-6xl mx-auto text-center ">
-        <p className="mt-4 text-white font-[450]">
-          Our unwavering commitment to accuracy and detail. Our comprehensive
+        <p className="mt-4 text-white font-[450] text-lg">
+                 Our unwavering commitment to accuracy and detail. Our comprehensive
           suite of take-off is designed to cater to businesses of all sizes,
           ensuring each client receives personalized attention and strategies
           that yield tangible results. We take pride in our Expert Team,

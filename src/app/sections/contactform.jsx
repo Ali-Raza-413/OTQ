@@ -26,8 +26,37 @@ const ContactUsForm = () => {
 
   return (
     <div className="max-w-6xl mx-auto py-10">
-        <p className="text-center text-xl font-semibold max-w-lg mx-auto">Contact us about anything related to our company or services.
-        We'll do our best to get back to you as soon as possible.</p>
+      {/* Business Hours Section */}
+      <div className="px-4 md:px-0">
+      <div className="flex flex-col bg-[#63078a] p-5 mb-5 max-w-md mx-auto rounded-lg shadow-lg">
+        <p className="text-3xl font-semibold text-center mb-3 text-[#fdda04]">
+        Working  Hours
+        </p>
+        <div className="text-center mb-5  text-white">
+        <p className="text-xl font-[400] mb-3">
+          Monday: <span className="font-[500]">8 AM to 5 PM</span>
+        </p>
+        <p className="text-xl font-[400] mb-3">
+          Tuesday: <span className="font-[500] ">8 AM to 5 PM</span>
+        </p>
+        <p className="text-xl font-[400] mb-3">
+          Wednesday: <span className="font-[500]">8 AM to 5 PM</span>
+        </p>
+        <p className="text-xl font-[400] mb-3">
+          Thursday: <span className="font-[500]">8 AM to 5 PM</span>
+        </p>
+        <p className="text-xl font-[400]">
+          Friday: <span className="font-[500]">8 AM to 5 PM</span>
+        </p>
+        </div>
+      </div>
+      </div>
+      {/* Main Contact Us Message */}
+      <p className="text-center text-xl font-semibold max-w-lg mx-auto px-4 md:px-0">
+        Contact us about anything related to our company or services. We'll do
+        our best to get back to you as soon as possible.
+      </p>
+
       <div className="max-w-4xl p-5">
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Name Field */}
@@ -127,9 +156,9 @@ const ContactUsForm = () => {
 
           {/* Submit Button */}
           <div className="flex justify-end">
-          <button className="bg-[#4d0362] text-white py-3 px-8 rounded-full hover:bg-[#63078a] transition">
-          Contact Us
-        </button>
+            <button className="bg-[#4d0362] text-white py-3 px-8 rounded-full hover:bg-[#63078a] transition">
+              Contact Us
+            </button>
           </div>
         </form>
       </div>

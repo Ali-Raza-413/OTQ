@@ -28,7 +28,7 @@ const AnalyticalSection = () => {
              <NumberTicker
                 targetNumber={item.number}
                 duration={2000} // Animation duration in ms
-                className="text-3xl font-bold mb-4 text-yellow-400"
+                className="text-4xl font-bold mb-4 text-[#63078a]"
                   
               />
               <p className="text-lg text-black font-semibold">{item.title}</p>

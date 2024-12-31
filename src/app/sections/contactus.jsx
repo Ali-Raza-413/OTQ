@@ -25,8 +25,8 @@ const Contactus = () => {
             <h1 className="text-4xl font-semibold mb-4">
               Join hands with us on a success venture
             </h1>
-            <p className="mb-6 text-md font-[400]">
-              Transform your workplace with our innovative solutions.
+            <p className="mb-6 text-lg font-[400]">
+            Transfor your bidding processes and numbers with our experts.
             </p>
           </div>
           <div className="md:mt-10">
