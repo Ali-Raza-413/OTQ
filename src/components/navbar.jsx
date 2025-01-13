@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
 
           <h1 className=" hidden md:block text-3xl  font-semibold text-[#63078a]">
-            QTO HUB <span className="text-[#fdda04]">LLC</span>
+            QTO HUB <span className="text-[#fdda04]"></span>
           </h1>
 
           {/* Desktop Navigation Links */}

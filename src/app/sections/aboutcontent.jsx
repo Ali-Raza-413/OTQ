@@ -10,7 +10,7 @@ const AboutContent = () => {
             Who We Are
           </h1>
           <p className="text-lg leading-relaxed mb-6 text-gray-600 font-[400]  text-center lg:text-left">
-            QTO Hub LLC is an employee-owned reputable cost estimating firm that
+            QTO Hub is an employee-owned reputable cost estimating firm that
             takes pride in serving a multitude of satisfied clients. Our
             unwavering dedication to meeting stringent deadlines while upholding
             exceptional work quality sets us apart in the industry. We
@@ -52,7 +52,7 @@ const AboutContent = () => {
             diligently to provide cost- effective solutions without compromising
             on quality. We have successfully completed multi-million-dollar
             projects, which speaks to our competence and reliability. Rest
-            assured that when you choose QTO Hub LLC, you are placing your trust
+            assured that when you choose QTO Hub, you are placing your trust
             in capable hands. We prioritize client satisfaction and are
             committed to delivering excellence in all our Take-off services.
             Your project will receive the utmost attention from our experienced
@@ -69,7 +69,7 @@ const AboutContent = () => {
             Our Vision
           </h1>
           <p className="text-lg leading-relaxed mb-6 text-gray-600 font-[400]  text-center lg:text-left">
-            At QTO HUB LLC, we envision a world where every sort of construction business, regardless of
+            At QTO HUB, we envision a world where every sort of construction business, regardless of
             size, has the tools and knowledge to thrive in the digital
             marketplace. We are dedicated to being a catalyst for growth and
             success for our clients.

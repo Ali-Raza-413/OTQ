@@ -19,9 +19,9 @@ const Transform = () => {
           Ready to Transform Your Bidding Process?
         </h1>
         <p className="text-lg leading-relaxed mb-6 text-gray-600 font-[400]  text-center">
-          Partner with QTO Hub LLC and take the first step towards unparalleled
+          Partner with QTO Hub and take the first step towards unparalleled
           growth and success. Our team of experts is ready to elevate your
-          company to new heights. At QTO Hub LLC, we stand out for our unwavering
+          company to new heights. At QTO Hub, we stand out for our unwavering
           commitment to accuracy and detail. Our comprehensive suite of take-off
           is designed to cater to businesses of all sizes, ensuring each client
           receives personalized attention and strategies that yield tangible

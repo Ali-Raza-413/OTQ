@@ -53,7 +53,7 @@ const Footer = () => {
       <div className="mt-5 md:bg-[#00000026] md:p-3">
         <div className="max-w-6xl mx-auto flex flex-col items-center md:flex-row md:justify-center text-center md:text-left">
           <p className="text-white opacity-80">
-            Copyright © 2024 QTO HUB LLC
+            Copyright © 2024 QTO HUB 
             . All Rights Reserved.
           </p>
           {/* <div className="flex gap-1 flex-wrap items-center justify-center">

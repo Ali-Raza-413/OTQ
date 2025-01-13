@@ -25,7 +25,7 @@ const Herosection = () => {
         <h1 className="text-4xl md:text-6xl font-bold mb-6">Today & Tomorrow.</h1>
 
         <p className="mb-8 text-2xl md:text-3xl font-[400] leading-relaxed">
-        Transform your business with QTO Hub LLC. From bidding to estimation to 
+        Transform your business with QTO Hub. From bidding to estimation to 
         boosting sales, we bring your vision to life and rank your business to its peak
         </p>
         <button className="bg-[#4d0362] md:text-3xl text-white py-3 px-10 rounded-full hover:bg-[#63078a] transition"

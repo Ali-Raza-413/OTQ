@@ -10,7 +10,7 @@ const PartnerSection = () => {
           Your Partner in Success
         </h1>
         <p className="text-lg leading-relaxed mb-6 text-gray-600 font-[400]  text-center lg:text-left">
-          At QTO Hub LLC, we provide comprehensive and detailed take-offs to
+          At QTO Hub, we provide comprehensive and detailed take-offs to
           elevate your bidding process. We expertise in GC, MEP, Subcontracting
           and all types of building take-offs. We ensure your bid stands out in
           whole bidding process. Let us help you achieve your business goals.
