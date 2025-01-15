@@ -45,7 +45,7 @@ const Footer = () => {
         </div> */}
 
         <div className="mt-5 flex justify-center">
-          <Image src="/a6.png" width={120} height={120} alt="footer icon"  className="bg-white rounded-md"/>
+          <Image src="/logo2.png" width={120} height={120} alt="footer icon"  className="bg-white rounded-md"/>
         </div>
       </div>
 

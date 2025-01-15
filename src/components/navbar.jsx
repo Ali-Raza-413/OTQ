@@ -41,11 +41,11 @@ const Navbar = () => {
           {/* Logo */}
           <div>
             <img
-              src="/a6.png"
+              src="/logo2.png"
               alt="logo"
               className={`transition-all duration-300 ${
-                isScrolled ? "max-w-[100px]" : "max-w-[150px]"
-              } h-auto`}
+                isScrolled ? "max-w-[80px]" : "max-w-[90px]"
+              } `}
             />
           </div>
 
